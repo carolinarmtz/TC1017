@@ -21,5 +21,6 @@ int main()
       cin>> resp;
       
   }while (resp == 'r');
+  cout<<"Have a nice day!"<<endl;
 return 0;
 }
