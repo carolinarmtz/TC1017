@@ -8,19 +8,20 @@ using namespace std;
 void palindrome (){
 	string x;
 	string y;
-	cout<<" enter string:";
+	cout<<" enter just one word:";
 	cin >> x;
 	y= string(x.rbegin(),x.rend());
-	cout << "reverse string is:"<< y << endl;
+	cout << "reverse word is:"<< y << endl;
 	if(x == y) {
 	cout <<" Is a palindrome" << endl;
 
 	}
 	else {
-	cout <<" Is not a palindrome" << endl;	
+	cout <<" Is not a palindrome" << endl;
 	}
 }
 int main (){
 	palindrome();
 	return 0;
 }
+
